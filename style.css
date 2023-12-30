@@ -1,114 +1,153 @@
-@media only screen and (orientation:landscape) {
-    html {
-        background-image: url(bg-4.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        color: #ffffff;
-    }
+* {
+    margin: 0;
+}
 
-    .heading {
-        background-image: url(bg1.png);
-        background-size: 861px 404px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: 2.5rem;
-        background-size: auto;
-    }
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 1);
+}
 
-    .nav-bar {
-        overflow: auto;
-        white-space: nowrap;
-    }
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
-    .get-minecraft-bt {
-        background-image: linear-gradient(to bottom right, red, yellow);
-        color: white;
-        width: 10rem;
-        height: 2.5rem;
-        border-radius: 15%;
-    }
+nav li {
+    height: 50px;
+}
 
-    .Mods-bt {
-        background-image: linear-gradient(to bottom right, red, yellow);
-        color: white;
-        width: 10rem;
-        height: 2.5rem;
-        border-radius: 15%;
-    }
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
 
-    .sub-heading {
-        color: rgb(5, 255, 26);
-        font-weight: 600;
-    }
+nav a:hover {
+    background-color: rgb(233, 211, 211);
+}
 
-    .contact {
-        background-image: linear-gradient(to bottom right, #00274D, #00A8E8);
-        color: white;
-        border-radius: 15%;
-        width: 8rem;
-        height: 2.5rem;
-    }
+nav li:first-child {
+    margin-right: auto;
+}
 
-    img {
-        width: 100%;
-        height: auto;
-    }
 
-    #update-1 {
-        font-family: 'Playpen Sans', cursive;
-        color: rgb(255, 255, 255);
-        text-align: center;
+html {
+    background-image: url(bg-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
 
-    }
+.heading {
+    background-image: url(bg1.png);
+    background-size: 861px 404px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    background-size: auto;
+}
 
-    #Home,
-    #updates,
-    #contact {
-        padding: 1rem;
-    }
+.nav-bar {
+    overflow: auto;
+    white-space: nowrap;
+}
 
-    #Home {
+.get-minecraft-bt {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 15%;
+}
 
-        color: #ffffff;
-    }
+.Mods-bt {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 15%;
+}
 
-    .hr {
-        height: 2px;
-        background-color: rgb(0, 0, 0);
-    }
+.sub-heading {
+    color: rgb(5, 255, 26);
+    font-weight: 600;
+}
 
-    /* --------------------------------------------get-minecraft---------------------------------------------------------*/
-    .back-bt {
-        border-radius: 50%;
-        background-image: linear-gradient(to right, #009245, #fcee21);
-        color: white;
-        height: 4rem;
-        width: auto;
-        font-size: auto;
-    }
+.contact {
+    background-image: linear-gradient(to bottom right, #00274D, #00A8E8);
+    color: white;
+    border-radius: 15%;
+    width: 8rem;
+    height: 2.5rem;
+}
 
-    .home-bt-bg {
-        background-image: url(bg1.png);
-    }
+img {
+    width: 100%;
+    height: auto;
+}
 
-    .get-minecraft-heading {
-        background-image: url(bg1.png);
-        background-repeat: no-repeat;
-        color: rgb(255, 255, 255);
-    }
-
-    .vid {
-        width: 100%;
-        height: 10rem;
-        display: grid;
-    }
-
-    .name-me {
-        font-family: Nosifer;
-        color: rgb(5, 255, 26);
-    }
+#update-1 {
+    font-family: 'Playpen Sans', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
 
 }
+
+#Home,
+#updates,
+#contact {
+    padding: 1rem;
+}
+
+#Home {
+
+    color: #ffffff;
+}
+
+.hr {
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* --------------------------------------------get-minecraft---------------------------------------------------------*/
+.back-bt {
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #009245, #fcee21);
+    color: white;
+    height: 4rem;
+    width: auto;
+    font-size: auto;
+}
+
+.home-bt-bg {
+    background-image: url(bg1.png);
+}
+
+.get-minecraft-heading {
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+.vid {
+    width: 100%;
+    height: 10rem;
+    display: grid;
+}
+
+.name-me {
+    font-family: Nosifer;
+    color: rgb(5, 255, 26);
+}
+
+
+
+
 /* ------------------------------------******************************************************************************************------------------------------------------------------------------------------ */
 html {
     background-image: url(bg-4.jpg);
@@ -169,6 +208,8 @@ img {
 #update-1 {
     font-family: 'Playpen Sans', cursive;
     color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
     text-align: center;
 
 }
@@ -177,6 +218,14 @@ img {
 #updates,
 #contact {
     padding: 1rem;
+}
+.ct-link{
+    display: flex;
+    align-self: center;
+}
+.contact{
+    display: flex;
+    align-items: center;
 }
 
 .hr {
@@ -213,4 +262,95 @@ img {
 .name-me {
     font-family: Nosifer;
     color: rgb(5, 255, 26);
+}
+
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(0, 0, 1);
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(233, 211, 211);
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+
+.slidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.slidebar li {
+    width: 100%;
+}
+
+
+.slidebar a {
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    
+}
+
+@media(min-width: 800px) {
+    .menu-button{
+        display: block;
+    }
+    
+}
+@media(max-width:400px){
+    .slidebar{
+        width: 100%;
+    }
 }
