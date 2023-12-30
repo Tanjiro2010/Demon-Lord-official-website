@@ -1,17 +1,21 @@
-@media screen and (min-width: 455px) {
-    html{
+@media only screen and (orientation:landscape) {
+    html {
         background-image: url(bg-4.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #ffffff;
     }
+
     .heading {
         background-image: url(bg1.png);
         background-size: 861px 404px;
         text-align: center;
-        color:rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
         font-size: 2.5rem;
         background-size: auto;
     }
 
-    .bt-colum {
+    .nav-bar {
         overflow: auto;
         white-space: nowrap;
     }
@@ -33,7 +37,7 @@
     }
 
     .sub-heading {
-        color:  rgb(5, 255, 26);
+        color: rgb(5, 255, 26);
         font-weight: 600;
     }
 
@@ -62,8 +66,9 @@
     #contact {
         padding: 1rem;
     }
-    #Home{
-       
+
+    #Home {
+
         color: #ffffff;
     }
 
@@ -91,19 +96,25 @@
         background-repeat: no-repeat;
         color: rgb(255, 255, 255);
     }
-    .vid{
+
+    .vid {
         width: 100%;
         height: 10rem;
-       display: grid;
+        display: grid;
     }
-    .name-me{
+
+    .name-me {
         font-family: Nosifer;
         color: rgb(5, 255, 26);
     }
-    
+
 }
-html{
+/* ------------------------------------******************************************************************************************------------------------------------------------------------------------------ */
+html {
     background-image: url(bg-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
 }
 
 .heading {
@@ -113,9 +124,10 @@ html{
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     background-size: auto;
+
 }
 
-.bt-colum {
+.nav-bar {
     overflow: auto;
     white-space: nowrap;
 }
@@ -137,7 +149,7 @@ html{
 }
 
 .sub-heading {
-    color:  rgb(5, 255, 26);
+    color: rgb(5, 255, 26);
     font-weight: 600;
 }
 
@@ -191,12 +203,14 @@ img {
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
 }
-.vid{
+
+.vid {
     width: 100%;
     height: auto;
-   display: grid;
+    display: grid;
 }
-.name-me{
+
+.name-me {
     font-family: Nosifer;
     color: rgb(5, 255, 26);
 }
