@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'MinecraftRegular-Bmg3';
+    src: url('fonts/MinecraftRegular-Bmg3.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MinecraftEvenings-lgvPd;
+    src: url(fonts/MinecraftEvenings-lgvPd.ttf);
+ }
 * {
     margin: 0;
 }
 
 nav {
-    background-color: white;
+    background-color:#3b8526;
     box-shadow: 3px 3px 5px rgb(0, 0, 1);
 }
 
@@ -24,24 +35,20 @@ nav a {
     padding: 0 30px;
     text-decoration: none;
     display: flex;
-    color: black;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: MinecraftRegular-Bmg3;
 }
 
 nav a:hover {
-    background-color: rgb(233, 211, 211);
+    background-color: #3b8530;;
 }
 
 nav li:first-child {
     margin-right: auto;
 }
 
-
-html {
-    background-image: url(bg-4.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #ffffff;
-}
 
 .heading {
     background-image: url(bg1.png);
@@ -149,12 +156,7 @@ img {
 
 
 /* ------------------------------------******************************************************************************************------------------------------------------------------------------------------ */
-html {
-    background-image: url(bg-4.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #ffffff;
-}
+
 
 .heading {
     background-image: url(bg1.png);
@@ -189,7 +191,11 @@ html {
 
 .sub-heading {
     color: rgb(5, 255, 26);
-    font-weight: 600;
+    font-family: MinecraftEvenings-lgvPd;
+    font-weight: 5;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-indent: 10px;
 }
 
 .contact {
@@ -269,7 +275,7 @@ img {
 }
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color:#3b8526;
     box-shadow: 3px 3px 5px rgb(0, 0, 1);
     width: 100%;
 }
@@ -291,11 +297,11 @@ nav a {
     padding: 0 30px;
     text-decoration: none;
     display: flex;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 nav a:hover {
-    background-color: rgb(233, 211, 211);
+    background-color:#3b8530;
 }
 
 nav li:first-child {
@@ -347,7 +353,6 @@ nav li:first-child {
     .menu-button{
         display: block;
     }
-    
 }
 @media(max-width:400px){
     .slidebar{
